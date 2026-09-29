@@ -1,0 +1,31 @@
+{
+  "source": {
+    "file": "VID_20260912_235052.mp4",
+    "sha256": "2b2fb6ad52920f29a8cc26b907a708a6432422f5f8bcc758e9a8d5619d1fba88",
+    "bytes": 38401428,
+    "duration_seconds": 109.499667,
+    "resolution": [
+      1280,
+      720
+    ],
+    "unchanged_original": true
+  },
+  "gif": {
+    "file": "demo-six-rounds-1.5x.gif",
+    "sha256": "0212fcfaf5d39e2a44c692d0011b1d5cf030e7e5580986e6a87fb0335bbd5ee8",
+    "bytes": 7615183,
+    "source_start_seconds": 0.8,
+    "source_end_seconds": 34.5,
+    "speed": 1.5,
+    "frames": 225,
+    "duration_seconds": 22.5,
+    "resolution": [
+      640,
+      360
+    ],
+    "loop": 0,
+    "round_count": 6,
+    "round_identification": "Visual review; no synchronized game log"
+  },
+  "generator": "FFmpeg 7.1.1; scripts/make_demo_gif.ps1"
+}

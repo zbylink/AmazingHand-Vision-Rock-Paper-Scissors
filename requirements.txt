@@ -1,0 +1,6 @@
+# Direct dependencies observed in the original Windows Python 3.12 environment.
+# A fresh-install resolution has not yet been validated.
+mediapipe==0.10.14
+numpy==2.5.3
+opencv-contrib-python==5.0.0.93
+rustypot==1.7.0
