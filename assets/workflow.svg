@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="870" viewBox="0 0 480 870" role="img" aria-labelledby="title desc">
+<title id="title">AmazingHand: vision to action</title><desc id="desc">Camera, RGB frame, MediaPipe landmarks, joint angles, then a MuJoCo preview or the physical RPS game.</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0 0L8 4L0 8" fill="#78909c"/></marker></defs>
+<rect x="1" y="1" width="478" height="868" rx="20" fill="#f5f8fc" stroke="#d8e1ed"/>
+<g font-family="Segoe UI,Arial,sans-serif" text-anchor="middle">
+<text x="240" y="39" fill="#142c47" font-size="21" font-weight="700">Vision to action</text>
+<text x="240" y="65" fill="#5b6d82" font-size="13">AmazingHand development workflow</text>
+<rect x="35" y="92" width="410" height="80" rx="12" fill="white" stroke="#cbd8e8"/><text x="240" y="122" fill="#214769" font-size="16" font-weight="700">01  CAMERA</text><text x="240" y="148" fill="#52677e" font-size="13">Capture one hand with OpenCV</text>
+<path d="M240 172 V195" fill="none" stroke="#78909c" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="35" y="202" width="410" height="80" rx="12" fill="white" stroke="#cbd8e8"/><text x="240" y="232" fill="#214769" font-size="16" font-weight="700">02  LANDMARKS</text><text x="240" y="258" fill="#52677e" font-size="13">RGB frame → MediaPipe Hands</text>
+<path d="M240 282 V305" fill="none" stroke="#78909c" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="35" y="312" width="410" height="80" rx="12" fill="white" stroke="#cbd8e8"/><text x="240" y="342" fill="#214769" font-size="16" font-weight="700">03  JOINT ANGLES</text><text x="240" y="368" fill="#52677e" font-size="13">Finger bending from 3D landmark vectors</text>
+<path d="M240 392 V415" fill="none" stroke="#78909c" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="35" y="422" width="410" height="80" rx="12" fill="white" stroke="#cbd8e8"/><text x="240" y="452" fill="#214769" font-size="16" font-weight="700">04  GESTURE RULES</text><text x="240" y="478" fill="#52677e" font-size="13">Rock / Paper / Scissors + 15-frame vote</text>
+<path d="M240 502 V533 H132 V564 M240 533 H348 V564" fill="none" stroke="#78909c" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="24" y="575" width="208" height="160" rx="12" fill="#e8f5f0" stroke="#cbd8e8"/><text x="128" y="605" fill="#214769" font-size="14" font-weight="700">MUJOCO PREVIEW</text>
+<text x="128" y="635" fill="#405b73" font-size="13">Finger-angle following</text>
+<text x="128" y="657" fill="#405b73" font-size="13">or stable RPS poses</text>
+<text x="128" y="679" fill="#405b73" font-size="13">Smooth + limit targets</text>
+<text x="128" y="701" fill="#405b73" font-size="13">No serial connection</text>
+<rect x="248" y="575" width="208" height="160" rx="12" fill="#eaf0fc" stroke="#cbd8e8"/><text x="352" y="605" fill="#214769" font-size="14" font-weight="700">PHYSICAL GAME</text>
+<text x="352" y="635" fill="#405b73" font-size="13">Robot chooses a move</text>
+<text x="352" y="657" fill="#405b73" font-size="13">Read stable human RPS</text>
+<text x="352" y="679" fill="#405b73" font-size="13">Compare the result</text>
+<text x="352" y="701" fill="#405b73" font-size="13">Send servo targets</text>
+<text x="240" y="772" fill="#405b73" font-size="13">Finger mode uses angles directly, before RPS voting.</text>
+<text x="240" y="805" fill="#214769" font-size="14" font-weight="700">Physical feedback</text>
+<text x="240" y="831" fill="#405b73" font-size="13">proud / shame → middle → challenge</text>
+<text x="240" y="851" fill="#5b6d82" font-size="12">Draw → middle → next round</text></g></svg>

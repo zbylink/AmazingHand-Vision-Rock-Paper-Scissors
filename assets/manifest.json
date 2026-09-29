@@ -11,21 +11,37 @@
     "unchanged_original": true
   },
   "gif": {
-    "file": "demo-six-rounds-1.5x.gif",
-    "sha256": "0212fcfaf5d39e2a44c692d0011b1d5cf030e7e5580986e6a87fb0335bbd5ee8",
-    "bytes": 7615183,
-    "source_start_seconds": 0.8,
-    "source_end_seconds": 34.5,
+    "file": "demo-24s-61s-1.5x.gif",
+    "sha256": "1af9f2f639c102e7c1d8d761331f9e640b1e2c6ed2b7b8d3cd0b60641af02033",
+    "bytes": 8148295,
+    "source_start_seconds": 24,
+    "source_end_seconds": 61,
     "speed": 1.5,
-    "frames": 225,
-    "duration_seconds": 22.5,
+    "frames": 247,
+    "duration_seconds": 24.7,
     "resolution": [
       640,
       360
     ],
-    "loop": 0,
-    "round_count": 6,
-    "round_identification": "Visual review; no synchronized game log"
+    "loop": 0
   },
-  "generator": "FFmpeg 7.1.1; scripts/make_demo_gif.ps1"
+  "generator": "FFmpeg 7.1.1; scripts/make_demo_gif.ps1",
+  "screenshots": [
+    {
+      "file": "simulation-scissors.png",
+      "sha256": "105611096f44712f7a89505c041b7f1968b36aa46a01005a5584bee7052aa09c"
+    },
+    {
+      "file": "simulation-thumb.png",
+      "sha256": "7a6b2e4a8895d8264e27fbf8fdb17cc75852d8d582f65aee7114172e308e00ab"
+    },
+    {
+      "file": "vision-scissors.png",
+      "sha256": "f39416ed4a65f852be9cd1e243880235da995cc90edcff971b6c6febdbe20798"
+    },
+    {
+      "file": "vision-thumb.png",
+      "sha256": "1c501c908a0ae72a7ef8b08130fb900781fbbedf4a0de30a50855bd4a89cbfea"
+    }
+  ]
 }
